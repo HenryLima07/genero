@@ -1,0 +1,42 @@
+site_name: Educación y Género
+site_description: Reflexiones críticas sobre género en la educación salvadoreña
+site_author: Henry Eduardo Escobar Lima
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - content.code.annotate
+    - content.tabs.link
+
+nav:
+  - Inicio: index.md
+  - Perfil personal: perfil.md
+  - Problemas de género: problemas.md
+  - Aprendizajes: aprendizajes.md
+  - ¿Por qué cursar la asignatura?: recomendar.md
+  - Bibliografía: bibliografia.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.emoji
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HenryLima07
